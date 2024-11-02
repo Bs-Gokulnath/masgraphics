@@ -1,5 +1,5 @@
 const express = require('express');
-const Model = require('../models/model'); // Assuming this is the path to your Mongoose model
+const Model = require('../model/model'); // Assuming this is the path to your Mongoose model
 const router = express.Router();
 
 router.post('/post', async (req, res) => {
